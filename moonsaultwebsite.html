@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Moonsault Collective</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'IBM Plex Mono', monospace;
+      text-align: center;
+      opacity: 0;
+      animation: fade-in 1s ease forwards;
+    }
+
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    #logo {
+      margin-top: 150px;
+    }
+
+    h3 {
+      font-size: 32px;
+    }
+
+    .button {
+      display: inline-block;
+      margin: 20px;
+      padding: 12px 24px;
+      border-radius: 30px;
+      background-color: #fff;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div id="logo">
+    <h3>coming soon...</h3>
+    <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81rAsKRS1X0g0JEYGI0Ig7blvdhf6-2qcLQ_JFpgz5KWa7SIFyir-G2zgnbpsS73w6szI2Pj2xHCMPb2zHPmqbs94k79ig=s1600" alt="Moonsault Collective Logo" style="width: 90%;">
+  </div>
+
+  <div id="buttons">
+    <a href="https://www.tiktok.com/@clublucha" class="button" target="_blank">CLUB LUCHA</a>
+    <a href="https://www.tiktok.com/@frogsplaaash" class="button" target="_blank">FROGSPLAAASH</a>
+    <a href="https://www.tiktok.com/@souperliger" class="button" target="_blank">SOUPER LIGER</a>
+  </div>
+
+  <script>
+    window.addEventListener('load', function() {
+      document.body.style.opacity = 1;
+    });
+  </script>
+</body>
+</html>
